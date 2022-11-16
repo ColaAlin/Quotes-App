@@ -16,4 +16,10 @@ function loadQuotes() {
             quote.innerText = quoteText;
             author.innerText = authorText;
         });
- }
+    updateLocalStorage();
+}
+ 
+ function getQuotes() {
+   }
+loadQuotes();
+getQuotes();
